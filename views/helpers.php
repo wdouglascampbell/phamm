@@ -865,10 +865,10 @@ function form_add_account_2 ($account_new, $action, $values, $disabled=array())
     $tag .= '<table class="table table-bordered">'."\n";
 
     $tag .= '<tr class="warning"><td>'._("Password").'</td>'."\n";
-    $tag .= '<td><input autocomplete="off" type="password" class="form-control" name="password1" value="" size="50" maxlength="50" /></td></tr>'."\n";
+    $tag .= '<td><input autocomplete="off" type="password" class="form-control" name="password1" value="" size="50" /></td></tr>'."\n";
 
     $tag .= '<tr class="warning"><td>'._("Confirm Password").'</td>'."\n";
-    $tag .= '<td><input autocomplete="off" type="password" class="form-control" name="password2" value="" size="50" maxlength="50" /></td></tr>'."\n";
+    $tag .= '<td><input autocomplete="off" type="password" class="form-control" name="password2" value="" size="50" /></td></tr>'."\n";
 
     $tag .= '<tr class="warning"><td>'._("Name").' *</td>'."\n";
     $tag .= '<td><input type="text" class="form-control" name="givenname" value="'.stripslashes($givenName).'" size="15" maxlength="50" /></td></tr>'."\n";
